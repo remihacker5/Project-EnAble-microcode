@@ -47,7 +47,7 @@ def main():
 
         sleep(1)
         if data == b'1':
-            while not GPIO.input(touch):
+            while not GPIO.input(touch) and not GPIO.input(touch2):
                 print ('touch on');
                 left(10);
 
