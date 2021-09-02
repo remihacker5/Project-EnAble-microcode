@@ -31,3 +31,6 @@ index.py is created to test the touch sensors. The touch sensors were purchased 
 
 8.31.21 - Part A: 
 motors.py, microbit.py, motorspy2.py files were all crated to test certain funciton (look in directory). Remington came over to help program the sensors and the motors. Before he cmae over, I got all the sensors working and got it so that if the sensor goes off the motors move. We changed it with the help of Rem to make it so that it is now when the sensor is pressed the motor stops. All of this  is contained in motorspy2.py. We are trying to make it so that and "or" statement inside a while statement works. 
+
+9.1.21
+motorspy2.py alteration. Fixed the problem with getting both the sensors to stop the motor. Did this by changing it form an "or" statement to an "and" statement. For some reason, this works.
