@@ -1,8 +1,9 @@
 #importing necessary imports#
+from time import sleep
 import RPi.GPIO as GPIO
 import os
+import random
 import serial
-import time
 #end of importing necessary imports#
 
 #set GPIO mode#
@@ -28,10 +29,10 @@ touch6 = 4
 # End of Touch Sensor Variables #
 
 #motor1variables#
-IN1 = 6
-IN2 = 13
-IN3 = 19
-IN4 = 26
+IN1 = 17
+IN2 = 27
+IN3 = 22
+IN4 = 23
 #end of motor 1 vairables# 
 
 #motor 2 variables# 
@@ -59,7 +60,7 @@ motor4IN4 = 21
 motor5IN1 = 6
 motor5IN2 = 13
 motor5IN3 = 19
-motro5IN4 = 26
+motor5IN4 = 26
 #end of motor 5 variables#
 
 #end of all major variables# 
@@ -144,9 +145,8 @@ def main():
         size = z1serial.inWaiting()
         data = z1serial.read(size)
 
-        time.sleep(1)
         if data == b'1':
-            while not GPIO.input(touch):
+            while not GPIO.input(touch1):
                 print ('touch on');
                 left(10);
 
@@ -157,49 +157,49 @@ def main():
 
 def Step1():
     GPIO.output(IN4, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN4, False)
 
 def Step2():
     GPIO.output(IN4, True)
     GPIO.output(IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN4, False)
     GPIO.output(IN3, False)
 
 def Step3():
     GPIO.output(IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN3, False)
 
 def Step4():
     GPIO.output(IN2, True)
     GPIO.output(IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN2, False)
     GPIO.output(IN3, False)
 
 def Step5():
     GPIO.output(IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN2, False)
 
 def Step6():
     GPIO.output(IN1, True)
     GPIO.output(IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN1, False)
     GPIO.output(IN2, False)
 
 def Step7():
     GPIO.output(IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN1, False)
 
 def Step8():
     GPIO.output(IN4, True)
     GPIO.output(IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(IN4, False)
     GPIO.output(IN1, False)
 
