@@ -30,7 +30,10 @@ Basic Computer Accessories (mouse, keyboard, monitor, ect)
 index.py is created to test the touch sensors. The touch sensors were purchased off of Amazon for 10 of them for about $8. The serial number for the sensors is TTP223 Sensor Module. The sensor module successfully works with the Raspbery Pi 3B+ 
 
 8.31.21 - Part A: 
-motors.py, microbit.py, motorspy2.py files were all crated to test certain funciton (look in directory). Remington came over to help program the sensors and the motors. Before he cmae over, I got all the sensors working and got it so that if the sensor goes off the motors move. We changed it with the help of Rem to make it so that it is now when the sensor is pressed the motor stops. All of this  is contained in motorspy2.py. We are trying to make it so that and "or" statement inside a while statement works. 
+motors.py, microbit.py, motorspy2.py files were all crated to test certain funciton (look in directory). Remington came over to help program the sensors and the motors. Before he came over, I got all the sensors working and got it so that if the sensor goes off the motors move. We changed it with the help of Rem to make it so that it is now when the sensor is pressed the motor stops. All of this  is contained in motorspy2.py. We are trying to make it so that and "or" statement inside a while statement works. 
 
 9.1.21
 motorspy2.py alteration. Fixed the problem with getting both the sensors to stop the motor. Did this by changing it form an "or" statement to an "and" statement. For some reason, this works.
+
+9.2.21 
+Today we had science research because it is a Thurday. I realized in class that I only have 26 avaiable pins for the sensors and the motors at the same time. So I decided to put two sensors into one pin becasue as long as it can send an imput to the raspberry pi, it should work. I have decided that I am just going to stick with the Raspberry Pi an the Micro:bit because I really don't want to have to convert everything from Python into Micro:Python becasue honestly that is just a pain. Everthing has been assigned its new pins and they are all contained inside of the new file that I made. 
