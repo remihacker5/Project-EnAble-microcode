@@ -1,9 +1,9 @@
 # 2021-2022-Science-Fair-Project
 This is my 2021-2022 Science Fair Project  made by Jeron O (codered) and Remington A (remihacker5)
 
-This project is for both the SUU SUCCESS Academy Cedar City Utah Science Fair and for the SUU Sience and Engeneering Fair 
+This project is for both the SUU SUCCESS Academy Cedar City Utah Science Fair and for the SUU Science and Engineering Fair 
 This project is only be used by seletive people from written permission from Jeron O (jeronosg@outlook.com). This project
-is made by Jeron O (CodeRed) and Remington A (RemiHacker5). 
+is made by Jeron O (CodeRed) and Remington A (Remihacker5). 
 
 All changes made by people with permission place them in the change logs below so we can keep track of them for the Science Fair
 Please keep track of all materials in the materials list 
@@ -36,4 +36,8 @@ motors.py, microbit.py, motorspy2.py files were all crated to test certain funci
 motorspy2.py alteration. Fixed the problem with getting both the sensors to stop the motor. Did this by changing it form an "or" statement to an "and" statement. For some reason, this works.
 
 9.2.21 
-Today we had science research because it is a Thurday. I realized in class that I only have 26 avaiable pins for the sensors and the motors at the same time. So I decided to put two sensors into one pin becasue as long as it can send an imput to the raspberry pi, it should work. I have decided that I am just going to stick with the Raspberry Pi an the Micro:bit because I really don't want to have to convert everything from Python into Micro:Python becasue honestly that is just a pain. Everthing has been assigned its new pins and they are all contained inside of the new file that I made. 
+Today we had science research because it is a Thurday. I realized in class that I only have 26 avaiable pins for the sensors and the motors at the same time. So I decided to put two sensors into one pin becasue as long as it can send an input to the raspberry pi, it should work. I have decided that I am just going to stick with the Raspberry Pi an the Micro:bit because I really don't want to have to convert everything from Python into Micro:Python becasue honestly that is just a pain. Everthing has been assigned its new pins and they are all contained inside of the new file that I made.
+
+9.2.21
+fixed a couple of spelling mistakes in README.MD. I did this mostly to see if I can use git and github correctly, before I make any big changes to the code.
+
