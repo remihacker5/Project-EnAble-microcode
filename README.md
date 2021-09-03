@@ -41,3 +41,19 @@ Today we had science research because it is a Thurday. I realized in class that 
 9.2.21
 fixed a couple of spelling mistakes in README.MD. I did this mostly to see if I can use git and github correctly, before I make any big changes to the code.
 
+9.2.21
+Just barely added a bunch of Micro:Bit Serial codes. Here is the list 
+Shake = 1 
+Logo up = 2
+Logo Down = 3
+Screen Down = 4
+Screen Up = 5
+Tilt Left = 6
+Tilt Right = 7
+Freefall = 8
+3G = 9
+6G = 10
+8G = 11 
+A = 12
+B = 13 
+AB = 14 
