@@ -23,8 +23,6 @@ z1serial.timeout = 2
 touch1 = 14
 touch2 = 15
 touch3 = 18 
-touch4 = 2
-touch5 = 3
 # End of Touch Sensor Variables #
 
 #motor1variables#
@@ -49,17 +47,17 @@ motor3IN4 = 5
 #end of motor 3 variables#
 
 #motor 4 variables# 
-motor4IN1 = 6
-motor4IN2 = 13
-motor4IN3 = 19
-motor4IN4 = 26
+motor4IN1 = 12
+motor4IN2 = 16
+motor4IN3 = 20
+motor4IN4 = 21
 #end of motor 4 variables# 
 
 #motor 5 variables# 
-motor5IN1 = 12
-motor5IN2 = 16
-motor5IN3 = 20
-motor5IN4 = 21
+motor5IN1 = 6
+motor5IN2 = 13
+motor5IN3 = 19
+motor5IN4 = 26
 #end of motor 5 variables#
 
 #end of all major variables# 
@@ -70,8 +68,6 @@ time = 0.001
 GPIO.setup(touch1, GPIO.IN) # Touch Switch
 GPIO.setup(touch2, GPIO.IN) # Touch Swtich 2
 GPIO.setup(touch3, GPIO.IN) # Touch Switch 3 
-GPIO.setup(touch4, GPIO.IN) # Touch Switch 4
-GPIO.setup(touch5, GPIO.IN) # Touch Switch 5
 #end of set up touch sensors#
 
 #motor 1 setup#
@@ -230,49 +226,49 @@ def right(step):
 
 def motor2Step1():
     GPIO.output(motor2IN4, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN4, False)
 
 def motor2Step2():
     GPIO.output(motor2IN4, True)
     GPIO.output(motor2IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN4, False)
     GPIO.output(motor2IN3, False)
 
 def motor2Step3():
     GPIO.output(motor2IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN3, False)
 
 def motor2Step4():
     GPIO.output(motor2IN2, True)
     GPIO.output(motor2IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN2, False)
     GPIO.output(motor2IN3, False)
 
 def motor2Step5():
     GPIO.output(motor2IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN2, False)
 
 def motor2Step6():
     GPIO.output(motor2IN1, True)
     GPIO.output(motor2IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN1, False)
     GPIO.output(motor2IN2, False)
 
 def motor2Step7():
     GPIO.output(motor2IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN1, False)
 
 def motor2Step8():
     GPIO.output(motor2IN4, True)
     GPIO.output(motor2IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor2IN4, False)
     GPIO.output(motor2IN1, False)
 
@@ -306,49 +302,49 @@ def motor2right(step):
 
 def motor3Step1():
     GPIO.output(motor3IN4, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN4, False)
 
 def motor3Step2():
     GPIO.output(motor3IN4, True)
     GPIO.output(motor3IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN4, False)
     GPIO.output(motor3IN3, False)
 
 def motor3Step3():
     GPIO.output(motor3IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN3, False)
 
 def motor3Step4():
     GPIO.output(motor3IN2, True)
     GPIO.output(motor3IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN2, False)
     GPIO.output(motor3IN3, False)
 
 def motor3Step5():
     GPIO.output(motor3IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN2, False)
 
 def motor3Step6():
     GPIO.output(motor3IN1, True)
     GPIO.output(motor3IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN1, False)
     GPIO.output(motor3IN2, False)
 
 def motor3Step7():
     GPIO.output(motor3IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN1, False)
 
 def motor3Step8():
     GPIO.output(motor3IN4, True)
     GPIO.output(motor3IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor3IN4, False)
     GPIO.output(motor3IN1, False)
 
@@ -382,49 +378,49 @@ def motor3right(step):
 
 def motor4Step1():
     GPIO.output(motor4IN4, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN4, False)
 
 def motor4Step2():
     GPIO.output(motor4IN4, True)
     GPIO.output(motor4IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN4, False)
     GPIO.output(motor4IN3, False)
 
 def motor4Step3():
     GPIO.output(motor4IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN3, False)
 
 def motor4Step4():
     GPIO.output(motor4IN2, True)
     GPIO.output(motor4IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN2, False)
     GPIO.output(motor4IN3, False)
 
 def motor4Step5():
     GPIO.output(motor4IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN2, False)
 
 def motor4Step6():
     GPIO.output(motor4IN1, True)
     GPIO.output(motor4IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN1, False)
     GPIO.output(motor4IN2, False)
 
 def motor4Step7():
     GPIO.output(motor4IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN1, False)
 
 def motor4Step8():
     GPIO.output(motor4IN4, True)
     GPIO.output(motor4IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor4IN4, False)
     GPIO.output(motor4IN1, False)
 
@@ -458,49 +454,49 @@ def motor4right(step):
 
 def motor5Step1():
     GPIO.output(motor5IN4, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN4, False)
 
 def motor5Step2():
     GPIO.output(motor5IN4, True)
     GPIO.output(motor5IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN4, False)
     GPIO.output(motor5IN3, False)
 
 def motor5Step3():
     GPIO.output(motor5IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN3, False)
 
 def motor5Step4():
     GPIO.output(motor5IN2, True)
     GPIO.output(motor5IN3, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN2, False)
     GPIO.output(motor5IN3, False)
 
 def motor5Step5():
     GPIO.output(motor5IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN2, False)
 
 def motor5Step6():
     GPIO.output(motor5IN1, True)
     GPIO.output(motor5IN2, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN1, False)
     GPIO.output(motor5IN2, False)
 
 def motor5Step7():
     GPIO.output(motor5IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN1, False)
 
 def motor5Step8():
     GPIO.output(motor5IN4, True)
     GPIO.output(motor5IN1, True)
-    time.sleep (time)
+    sleep (time)
     GPIO.output(motor5IN4, False)
     GPIO.output(motor5IN1, False)
 
