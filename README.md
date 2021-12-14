@@ -57,3 +57,7 @@ Freefall = 8
 A = 12
 B = 13 
 AB = 14 
+
+
+12.14.2021
+Changed the motors around in the code and fixed the sleep problem. The entire hand is now assembled, Just have to figure out where I want to put the motors. Other than that the project is pretty much done. It is supposed to be done by 12.16.2021...so I really need to hurry, but it should be all fine. Hopefully Rem can fix the code and get it to me soon. I also uploaded a "main.py" this is now the new main file. 
