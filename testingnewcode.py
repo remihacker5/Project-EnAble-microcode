@@ -25,7 +25,6 @@ touch2 = 15
 touch3 = 18 
 touch4 = 2
 touch5 = 3
-touch6 = 4
 # End of Touch Sensor Variables #
 
 #motor1variables#
@@ -50,17 +49,17 @@ motor3IN4 = 5
 #end of motor 3 variables#
 
 #motor 4 variables# 
-motor4IN1 = 12
-motor4IN2 = 16
-motor4IN3 = 20
-motor4IN4 = 21
+motor4IN1 = 6
+motor4IN2 = 13
+motor4IN3 = 19
+motor4IN4 = 26
 #end of motor 4 variables# 
 
 #motor 5 variables# 
-motor5IN1 = 6
-motor5IN2 = 13
-motor5IN3 = 19
-motor5IN4 = 26
+motor5IN1 = 12
+motor5IN2 = 16
+motor5IN3 = 20
+motor5IN4 = 21
 #end of motor 5 variables#
 
 #end of all major variables# 
@@ -73,7 +72,6 @@ GPIO.setup(touch2, GPIO.IN) # Touch Swtich 2
 GPIO.setup(touch3, GPIO.IN) # Touch Switch 3 
 GPIO.setup(touch4, GPIO.IN) # Touch Switch 4
 GPIO.setup(touch5, GPIO.IN) # Touch Switch 5
-GPIO.setup(touch6, GPIO.IN) # Touch Switch 6
 #end of set up touch sensors#
 
 #motor 1 setup#
@@ -145,11 +143,10 @@ def main():
         size = z1serial.inWaiting()
         data = z1serial.read(size)
 
-        if data == b'1':
+        if data == b'2':
             while not GPIO.input(touch1):
                 print ('touch on');
                 left(10);
-
 
 #end of main program#
 
