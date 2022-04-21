@@ -1,9 +1,9 @@
 # 2021-2022-Science-Fair-Project
-This is my 2021-2022 Science Fair Project  made by Jeron O (codered) and Remington A (remihacker5)
+This is my 2021-2022 Science Fair Project  made by Jeron O (codered)
 
 This project is for both the SUU SUCCESS Academy Cedar City Utah Science Fair and for the SUU Science and Engineering Fair 
-This project is only be used by seletive people from written permission from Jeron O (jeronosg@outlook.com). This project
-is made by Jeron O (CodeRed) and Remington A (Remihacker5). 
+This project is only be used by seletive people from written permission from Jeron. This project
+is made by Jeron O (CodeRed)
 
 All changes made by people with permission place them in the change logs below so we can keep track of them for the Science Fair
 Please keep track of all materials in the materials list 
