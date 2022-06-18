@@ -1,5 +1,4 @@
-# 2021-2022-Science-Fair-Project
-This is my 2021-2022 Science Fair Project  made by Jeron O (codered)
+# Project: EnAble (aka. Project: Enable All) 
 
 This project is for both the SUU SUCCESS Academy Cedar City Utah Science Fair and for the SUU Science and Engineering Fair 
 This project is only be used by seletive people from written permission from Jeron. This project
