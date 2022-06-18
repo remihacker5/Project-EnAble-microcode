@@ -60,3 +60,6 @@ AB = 14
 
 12.14.2021
 Changed the motors around in the code and fixed the sleep problem. The entire hand is now assembled, Just have to figure out where I want to put the motors. Other than that the project is pretty much done. It is supposed to be done by 12.16.2021...so I really need to hurry, but it should be all fine. Hopefully Rem can fix the code and get it to me soon. I also uploaded a "main.py" this is now the new main file. 
+
+6.18.2022
+As of June 18th of 2022, this is the final last edit of Project: EnAble v2.0. Project: EnAble v3.0 will now commence including the new forms for the science fairs that the project will be competing in, including the many different forms of the project. Past versions will be avaible in their respective folders. Thanks to everyone who was and is supporting me with this project, we ended up winning First Place in our local science fair, The Air Force award as well as the chance to go to Atlanta, Georgia for the International Science and Engineering Fair (ISEF 2022)!  
