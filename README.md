@@ -1,29 +1,18 @@
-# Project: EnAble (aka. Project: Enable All) 
+# Project: EnAble
 Copyright © 2023 Jeron Osguthorpe
 
-This project is for both the SUU SUCCESS Academy Cedar City Utah Science Fair and for the SUU Science and Engineering Fair 
-This project is only be used by seletive people from written permission from Jeron. This project
-is made by Jeron O (CodeRed)
+## Links to Sites
 
-All changes made by people with permission place them in the change logs below so we can keep track of them for the Science Fair
-Please keep track of all materials in the materials list 
+[Twitter](https://twitter.com/proj_enable)
 
--- MATERIALS -- 
-Raspberry Pi 3B+
-Raspbbery Pi Pico
-Micro:bit 
-10x - TTP223 Touch Sensor Module 
-5x - Stepper Motors (serial number soon) (with driver boards) 
-Full Size Breadboard
-Tiny Breadboard 
-Male to Male Wires,Male to Female Wires, Female to Female Wires
-5+x 9V Batteries and Voltimeter
-32gb ONN MircoSD Card
-Raspbian (Raspberry Pi Os) Linux Operating System
-16 GB ONN Flash Drive
-Dell Laptop (search up purposes) Latitude E745
-Basic Computer Accessories (mouse, keyboard, monitor, ect) 
+[CodingTricks YouTube Channel](https://youtube.com/codingtricks)
 
+
+# Information
+
+Project: EnAble aims to create a prosthetic system and design to help create more affordable, open source prosthetics. By Engineering new ways to create prosthetics, Project: EnAble can help make the world a more accessible place. Due to the project being open source, this does mean it is free, however, you must follow license rules to access the source code. Source code cannot be altered in any way without written permission from Jeron Osguthorpe. Project: EnAble is under license. See License information on Git Page. 
+
+Copyright © 2023 Jeron Osguthorpe
 
 --- CHANGE LOGS --- 
 
