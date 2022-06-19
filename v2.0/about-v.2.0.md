@@ -29,3 +29,5 @@ documents, as they have all the other information and citations for the project.
 Thank you to everyone who helped support Project: EnAble v2.0, it really means a lot to me. I am so happy that with this project, I got to go to ISEF and compete as a 
 finalist. For this next year, I hope to be able to improve Project: EnAble and create a project that theorizes for more than just hands (prioritizes prosthetic hands tho)
 Once again, thank you everyone who showed support and helped with the project. I hope to make v3.0 so much better! 
+
+Copyright © 2023 Jeron Osguthorpe 
