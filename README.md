@@ -25,7 +25,8 @@ Basic Computer Accessories (mouse, keyboard, monitor, ect)
 
 
 --- CHANGE LOGS --- 
-8.30.21 -- 
+
+8.30.21
 index.py is created to test the touch sensors. The touch sensors were purchased off of Amazon for 10 of them for about $8. The serial number for the sensors is TTP223 Sensor Module. The sensor module successfully works with the Raspbery Pi 3B+ 
 
 8.31.21 - Part A: 
