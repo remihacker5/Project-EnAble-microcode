@@ -18,3 +18,5 @@ if z1serial.is_open == True:
         time.sleep(1)
 else:
     print("z1serial not open")
+
+# Copyright © 2023 Jeron Osguthorpe 
