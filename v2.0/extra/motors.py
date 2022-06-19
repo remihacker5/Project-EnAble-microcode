@@ -121,3 +121,5 @@ else:
 	# Hier wird ermittelt wie weit sich der Motor dreht.
 	right(random.randint(100, 1024))
 GPIO.cleanup()
+
+# Copyright © 2023 Jeron Osguthorpe 
