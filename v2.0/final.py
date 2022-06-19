@@ -529,3 +529,5 @@ def motor5right(step):
 
 
 main()
+
+# Copyright © 2023 Jeron Osguthorpe 
