@@ -33,3 +33,4 @@ if __name__ == '__main__':
     finally:
         GPIO.cleanup()
         print ('Done')
+# Copyright © 2023 Jeron Osguthorpe 
