@@ -14,7 +14,7 @@ Project: EnAble aims to create a prosthetic system and design to help create mor
 
 Copyright © 2023 Jeron Osguthorpe
 
---- CHANGE LOGS --- 
+# CHANGE LOGS
 
 8.30.21
 index.py is created to test the touch sensors. The touch sensors were purchased off of Amazon for 10 of them for about $8. The serial number for the sensors is TTP223 Sensor Module. The sensor module successfully works with the Raspbery Pi 3B+ 
